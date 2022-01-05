@@ -1,0 +1,24 @@
+@page "/foo"
+@inherits ReactiveUI.Blazor.ReactiveComponentBase<FooViewModel>
+@inject FooViewModel _viewModel
+
+<section>
+    <h1>@ViewModel?.Bar</h1>
+    
+    <input id="searchText" class="form-control" type="text" @bind-value="ViewModel.Bar" @bind-value:event="oninput">
+    
+    @if (ViewModel.Civilizations.Any())
+    {
+        <list>
+            @foreach (var civilization in ViewModel.Civilizations)
+            {
+                <li>@civilization.Name</li>
+            }
+        </list>
+    }
+    else
+    {
+        <div>No results</div>
+    }
+    
+</section>

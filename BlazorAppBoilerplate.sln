@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BlazorAppBoilerplate", "BlazorAppBoilerplate\BlazorAppBoilerplate.csproj", "{3EC8EBF2-F284-4F14-9AAE-353B93F0B8E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SignalR", "SignalR\SignalR.csproj", "{8A3A2FCF-B584-4867-A780-C6CCA0DF5936}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgeOfEmpiresService", "AgeOfEmpiresService\AgeOfEmpiresService.csproj", "{581570A7-8DEB-4421-847C-A5FC772A105D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3EC8EBF2-F284-4F14-9AAE-353B93F0B8E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EC8EBF2-F284-4F14-9AAE-353B93F0B8E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EC8EBF2-F284-4F14-9AAE-353B93F0B8E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EC8EBF2-F284-4F14-9AAE-353B93F0B8E1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A3A2FCF-B584-4867-A780-C6CCA0DF5936}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A3A2FCF-B584-4867-A780-C6CCA0DF5936}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A3A2FCF-B584-4867-A780-C6CCA0DF5936}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A3A2FCF-B584-4867-A780-C6CCA0DF5936}.Release|Any CPU.Build.0 = Release|Any CPU
+		{581570A7-8DEB-4421-847C-A5FC772A105D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{581570A7-8DEB-4421-847C-A5FC772A105D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{581570A7-8DEB-4421-847C-A5FC772A105D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{581570A7-8DEB-4421-847C-A5FC772A105D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
